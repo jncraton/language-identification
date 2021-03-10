@@ -13,7 +13,7 @@ or
 python3 -m doctest identify.py
 ```
 
-Your goal is to build a language identifation model with and overall sensitivity (or recall) of greater than 90%.
+Your goal is to build a language identifation model with an overall sensitivity (or recall) of greater than 90%.
 
 Data
 ----
