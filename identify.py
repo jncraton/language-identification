@@ -24,7 +24,7 @@ def get_examples(language):
     Returns all examples for `language`
     """
     
-    with open('texts.csv') as f:
+    with open('texts.csv', encoding='utf-8') as f:
         return [r['text'] for r in csv.DictReader(f) if r['language'] == language]
 
 def get_corpus(language):
