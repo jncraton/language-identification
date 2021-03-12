@@ -41,8 +41,8 @@ def get_character_ngrams(text, n=3):
     >>> get_character_ngrams('hello')
     ['hel', 'ell', 'llo']
 
-    >>> get_character_ngrams('hi you')
-    ['hi ', 'i y', ' yo', 'you']
+    >>> get_character_ngrams('go go go')
+    ['go ', 'o g', ' go', 'go ', 'o g', ' go']
 
     >>> get_character_ngrams('مرحبا')
     ['مرح', 'رحب', 'حبا']
